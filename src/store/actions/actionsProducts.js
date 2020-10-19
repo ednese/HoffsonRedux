@@ -1,6 +1,5 @@
 import {FETCH_PRODUCTS} from './types';
-import {FILTER_PRODUCTS_SIZE} from './types';
-import {FILTER_PRODUCTS_ORDER} from './types';
+import {FILTER_PRODUCTS} from './types';
 
 export const fetchProducts = (dispatch) => {
     return (
@@ -12,23 +11,21 @@ export const fetchProducts = (dispatch) => {
         )
 }
 
-export const filterSizeProducts = (products, size, dispatch) => {
-    return dispatch(
-        {
-            type: FILTER_PRODUCTS_SIZE,
-            payload: {
-                size: size,
-                items: size ==='All'? products: products.filter(i => i.availableSizes.indexOf(size)>=0)
-            }
-        }
-    )
-}
-
 export const filterOrderProducts = (products, order, dispatch) => {
     return dispatch(
         {
-            type: FILTER_PRODUCTS_ORDER,
+            type: FILTER_PRODUCTS,
             payload: order ==='lowest'? products.sort((a, b) => a.price - b.price) : order ==='highest'? products.sort((a, b) => b.price - a.price): products
         }
     )
 }
+
+export const filterPriceProducts = (products, price, dispatch) => {
+    return dispatch(
+        {
+            type: FILTER_PRODUCTS,
+            payload: products.filter(i => i.price >= price)
+        }
+    )
+}
+

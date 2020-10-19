@@ -11,9 +11,8 @@ function Products(item, carts, dispatch) {
         <div key={product.id} className="col-md-4">
           <div key={product.id} className="thumbnail text-center">
             <a href={`#${product.id}`}>
-              <img src={`/products/${product.sku}_2.jpg`} alt={product.title} ></img>
+              <img className={`headphones img_${product.sku}`}src={`/products/${product.sku}.jpg`} alt={product.title} ></img>
               <p>{product.title}</p>
-              <p>{`Size: ${product.availableSizes}`}</p>
             </a>
             <div>
               <b style={{color: 'white'}}>{`$${product.price}  `}</b>
