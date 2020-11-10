@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/HoffsonRedux/precache-manifest.f05784cefb01b05985482b10eb0ef036.js"
+  "/HoffsonRedux/precache-manifest.9aebe3843fe5ac56ca44986f3239b0c3.js"
 );
 
 self.addEventListener('message', (event) => {

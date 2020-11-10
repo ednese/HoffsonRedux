@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c301c0cae0c9f6d64673700174873fff",
+    "revision": "8380a69c556611f937fa0bee453cd801",
     "url": "/HoffsonRedux/index.html"
   },
   {
-    "revision": "dea49ca195a0d7821fc5",
+    "revision": "58a98073c31369ee60a2",
     "url": "/HoffsonRedux/static/css/main.f6b992f1.chunk.css"
   },
   {
-    "revision": "13a09178aecf2602de43",
-    "url": "/HoffsonRedux/static/js/2.a4aec763.chunk.js"
+    "revision": "0773229734b1804c5538",
+    "url": "/HoffsonRedux/static/js/2.82b20e8a.chunk.js"
   },
   {
     "revision": "64bea2e190f27355a76963b8cb94bb7b",
-    "url": "/HoffsonRedux/static/js/2.a4aec763.chunk.js.LICENSE.txt"
+    "url": "/HoffsonRedux/static/js/2.82b20e8a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dea49ca195a0d7821fc5",
-    "url": "/HoffsonRedux/static/js/main.a597975c.chunk.js"
+    "revision": "58a98073c31369ee60a2",
+    "url": "/HoffsonRedux/static/js/main.ae3980c0.chunk.js"
   },
   {
     "revision": "019fdadaa888004c8963",
