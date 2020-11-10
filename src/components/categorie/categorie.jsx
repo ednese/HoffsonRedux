@@ -9,7 +9,7 @@ import lamp from '../../assets/img/Lights/light-home.jpg'
 import clock from '../../assets/img/Clock/clock-home.jpg'
 
 function Categorie() {
-  const img = [{txt: 'VASES', link: '/vases', img: vase}, {txt: 'LAMPS', link: '/lamps', img: lamp}, {txt: 'CLOCKS', link: '/clocks', img: clock}];
+  const img = [{txt: 'VASES', link: '/HoffsonRedux/#/vases', img: vase}, {txt: 'LAMPS', link: '/HoffsonRedux/#/lamps', img: lamp}, {txt: 'CLOCKS', link: '/HoffsonRedux/#/clocks', img: clock}];
   return (
     <div className="Categorie">
       <div className="categorie__inner">

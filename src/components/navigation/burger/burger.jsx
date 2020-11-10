@@ -25,7 +25,7 @@ function Burger(tab) {
           <div className="burger__sidebar">
               <ul className="burger__sidebar__items">
                   {tab.map((item, index) => <li key={index} ><a href={item.link}>{item.name}</a></li>)}
-                  <li><a href="/HoffsonRedux/shoppingcart">ShoppingCart</a></li>
+                  <li><a href="/HoffsonRedux/#/shoppingcart">ShoppingCart</a></li>
               </ul>
           </div>
         </div>

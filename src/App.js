@@ -9,7 +9,7 @@ import {fetchProducts} from './store/actions/actionsProducts'
 import {setCarts} from './store/actions/actionsCarts'
 
 // ROUTER
-import {Route} from 'react-router-dom';
+import {Route, useLocation} from 'react-router-dom';
 
 // COMPONENTS
 import Home from './components/pages/home';
@@ -29,11 +29,13 @@ const routes = [
 
 function App() {
   const dispatch = useDispatch()
+  const { pathname } = useLocation();
   useEffect(() => {
+    window.scrollTo(0, 0);
     fetchProducts(dispatch);
     if (localStorage.cart)
       setCarts(JSON.parse(localStorage.cart), dispatch);
-  }, [dispatch])
+  }, [dispatch, pathname])
   return (
       <div>
           {routes.map(({ path, Component }) => (
