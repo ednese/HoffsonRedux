@@ -1,0 +1,124 @@
+.ShopCart>.background {
+    position: absolute;
+    background: #ECECEC;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+.cart {
+    padding: 8em 25em 3em;
+    background: #ECECEC;
+}
+.cart__title {
+    font-size: 40px;
+}
+.cart__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cart__status {
+    text-align: center;
+    margin: 40px 0;
+}
+.cart__box {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+.cart__box__img {
+    width: 150px;
+    height: 150px;
+}
+.cart__box__right,
+.cart__box__right__top,
+.cart__box__right__bottom {
+    display: flex;
+}
+.cart__box__right {
+    flex-direction: column;
+    width: 300px;
+}
+.cart__box__right__top {
+    justify-content: space-between;
+}
+.cart__box__right__top__price {
+    font-weight: 600;
+}
+.cart__box__right__bottom {
+    margin-top: 80px;
+    justify-content: space-between;
+}
+.cart__box__right__bottom>.number {
+    border: solid white 2px;
+    border-radius: 20px;
+    text-align: center;
+    background: #ECECEC;
+    width: 80px;
+    padding-left: 25px;
+    height: 30px;
+}
+.cart__box__right__bottom>.number>option {
+    text-align: center;
+}
+.cart__box__right__bottom>.remove {
+    cursor: pointer;
+}
+.cart__inner__delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background: black;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 80px auto auto auto;
+    transition: all ease-in-out .2s;
+}
+.cart__inner__delete:hover {
+    background: rgb(37, 37, 37);
+}
+.cart__inner__cost,
+.cart__inner__total {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+.cart__inner__total {
+    font-weight: 600;
+}
+.cart__inner__cost::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 40px;
+}
+.cart__checkout{
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    background: #153774;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    width: 500px;
+    margin: 50px auto;
+    transition: background ease-in-out .2s;
+}
+.cart__checkout:hover{
+    background: #1d4a9c;
+}

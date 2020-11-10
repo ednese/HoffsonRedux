@@ -1,0 +1,98 @@
+@media screen and (max-width: 1400px) {
+    .cart {
+        padding: 8em 0 3em;
+    }
+    .cart__title {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .cart__title {
+        font-size: 30px;
+    }
+    .cart__status {
+        font-size: 20px;
+    }
+    .cart__box {
+        width: 400px;
+    }
+    .cart__box__right__top__txt>.title,
+    .cart__box__right__top__price {
+        font-size: 15px;
+    }
+    .cart__box__right__top__txt>.paragraph {
+        font-size: 12px;
+    }
+    .cart__box__right__bottom .number {
+        font-size: 12px;
+        width: 50px;
+        height: 20px;
+        padding-left: 12px;
+    }
+    .cart__box__right__bottom .remove {
+        font-size: 12px;
+    }
+    .cart__inner__cost,
+    .cart__inner__total {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .cart__title {
+        font-size: 20px;
+    }
+    .cart__status {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .cart__inner * {
+        margin: 0;
+    }
+    .cart__box,
+    .cart__box__right {
+        margin: auto;
+        margin-top: 20px;
+        width: 80%;
+    }
+    .cart__box__right__top__price{
+        margin: 10px 0;
+    }
+    .cart__box,
+    .cart__box__right,
+    .cart__box__right__top,
+    .cart__box__right__bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .cart__box__right__bottom .number {
+        font-size: 12px;
+        width: 50px;
+        height: 20px;
+        padding-left: 10px;
+    }
+    .cart__box__right__bottom .remove {
+        margin: 20px 0;
+    }
+    .cart__inner__delete {
+        font-size: 12px;
+        margin: 30px auto;
+    }
+    .cart__inner__cost,
+    .cart__inner__total {
+        font-size: 12px;
+        width: 80vw;
+        margin: 20px auto auto auto;
+    }
+    .cart__inner__cost::after {
+        margin-top: 23px;
+        height: 1px;
+    }
+    .cart__checkout {
+        font-weight: 500;
+        font-size: 12px;
+        width: 200px;
+        height: 40px;
+        margin: 40px auto 20px;
+    }
+}

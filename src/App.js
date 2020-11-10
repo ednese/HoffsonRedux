@@ -1,28 +1,46 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, {useEffect} from 'react';
 
-import useProducts from './components/Products';
-import useFilter from './components/Filter';
-import Basket from './components/Basket';
-import './App.css';
+// STYLE
+import './index.css';
+
+// REDUX
+import {useDispatch} from 'react-redux'
+import {fetchProducts} from './store/actions/actionsProducts'
+import {setCarts} from './store/actions/actionsCarts'
+
+// ROUTER
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+
+// COMPONENTS
+import Home from './components/pages/home';
+import Vase from './components/pages/vase';
+import Lamp from './components/pages/lamp';
+import Clock from './components/pages/clock';
+import ShopCart from './components/pages/shoppingcart';
+
+// ROUTES
+const routes = [
+  { path: '/', Component: Home },
+  { path: '/vases', Component: Vase },
+  { path: '/lamps', Component: Lamp },
+  { path: '/clocks', Component: Clock },
+  { path: '/shoppingcart', Component: ShopCart },
+]
 
 function App() {
+  const dispatch = useDispatch()
+  useEffect(() => {
+    fetchProducts(dispatch);
+    if (localStorage.cart)
+      setCarts(JSON.parse(localStorage.cart), dispatch);
+  }, [dispatch])
   return (
-    <div className="return">
-      <div className="container">
-        <h1 style={{color: 'white'}}> Hoffson </h1>
-        <hr/>
-        <div className="row">
-          <div className="col-md-7">
-            {useFilter()}
-            <hr/>
-            {useProducts()}
-          </div>
-          <div className="col-md-5">
-            {Basket()}
-          </div>
-        </div>
-      </div>
+    <div className="App">
+      <Router>
+        {routes.map(({ path, Component }) => (
+          <Route key={path} exact path={path} component={Component}/>
+        ))}
+      </Router>
     </div>
   );
 }

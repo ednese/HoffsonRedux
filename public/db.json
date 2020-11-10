@@ -2,75 +2,128 @@
   "products": [
     {
       "id": 1,
-      "sku": 3,
-      "title": "Sennheiser HD 800",
-      "price": 1599,
-      "isFreeShipping": true
+      "sku": 1,
+      "title": "RYRA / KRYSSMAST",
+      "style": "vert foncé/nickelé, 33 cm",
+      "price": 27.99,
+      "type": "lamp"
     },
 
     {
       "id": 2,
-      "sku": 5,
-      "title": "Bowers & Wilkins PX7",
-      "price": 350,
-      "isFreeShipping": true
+      "sku": 2,
+      "title": "LAKAFORS",
+      "style": "brun foncé/bois/rose foncé noir, 40cm",
+      "price": 17.99,
+      "type": "lamp"
     },
 
     {
       "id": 3,
-      "sku": 6,
-      "title": "Sennheiser HD 560S",
-      "price": 148.5,
-      "isFreeShipping": true
+      "sku": 3,
+      "title": "STOFTFRI",
+      "style": "laitonné/brun, 40 cm",
+      "price": 16.99,
+      "type": "lamp"
     },
 
     {
       "id": 4,
-      "sku": 1,
-      "title": "1. Beyerdynamic DT 1990 Pro",
-      "price": 599,
-      "isFreeShipping": false
+      "sku": 4,
+      "title": "EVEDAL",
+      "style": "marbre/gris globe",
+      "price": 149,
+      "type": "lamp"
     },
 
     {
       "id": 5,
-      "sku": 4,
-      "title": "Audeze LCD-1",
-      "price": 359,
-      "isFreeShipping": false
+      "sku": 1,
+      "title": "DEKORERA",
+      "style": "24 cm",
+      "price": 14.99,
+      "type": "vase"
     },
 
     {
       "id": 6,
       "sku": 2,
-      "title": "Sony WH-1000XM4",
-      "price": 348,
-      "isFreeShipping": false
+      "title": "VANLIGEN",
+      "style": "pichet, bleu26 cm",
+      "price": 19.99,
+      "type": "vase"
     },
 
     {
       "id": 7,
-      "sku": 9,
-      "title": "Sennheiser PXC 550-II",
-      "style": "Preto com listras brancas",
-      "price": 217.2,
-      "isFreeShipping": true
+      "sku": 3,
+      "title": "VANLIGEN",
+      "style": "gris, 18 cm",
+      "price": 7.99,
+      "type": "vase"
     },
 
     {
       "id": 8,
-      "sku": 7,
-      "title": "Philips PH805",
-      "style": "Azul escuro",
-      "price": 148.5,
-      "isFreeShipping": false
+      "sku": 4,
+      "title": "GRADVIS",
+      "style": "rose, 21 cm",
+      "price": 7.99,
+      "type": "vase"
     },
+
     {
       "id": 9,
-      "sku": 8,
-      "title": "Sennheiser Momentum",
-      "price": 349.9,
-      "isFreeShipping": true
+      "sku": 5,
+      "title": "STILREN",
+      "style": "blanc, 22 cm",
+      "price": 12.99,
+      "type": "vase"
+    },
+
+    {
+      "id": 10,
+      "sku": 1,
+      "title": "PUGG",
+      "style": "acier inoxydable",
+      "price": 9.99,
+      "type": "clock"
+    },
+
+    {
+      "id": 11,
+      "sku": 2,
+      "title": "KUTTERSMYCKE",
+      "style": "couleur argent, 46 cm",
+      "price": 39,
+      "type": "clock"
+    },
+
+    {
+      "id": 12,
+      "sku": 3,
+      "title": "TJALLA",
+      "style": "noir, 28 cm",
+      "price": 7.99,
+      "type": "clock"
+    },
+
+    {
+      "id": 13,
+      "sku": 4,
+      "title": "NUFFRA",
+      "style": "25 cm",
+      "price": 9.99,
+      "type": "clock"
+    },
+
+    {
+      "id": 14,
+      "sku": 5,
+      "title": "SKÄRIG",
+      "style": "26 cm",
+      "price": 14.99,
+      "type": "clock"
     }
   ]
 }
