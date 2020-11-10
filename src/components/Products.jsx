@@ -37,7 +37,7 @@ function Products(item, carts, dispatch, type) {
       .map(product => {
         return (
           <div key={product.id} className={+ product.sku%2 ? "product__inner" : "product__inner cream"}>
-            <img className={`product__inner__img product__inner_${product.type}`} src={`/products/${product.type}s/${product.type}_${product.sku}.png`} alt={product.title}/>
+            <img className={`product__inner__img product__inner_${product.type}`} src={`/HoffsonRedux/products/${product.type}s/${product.type}_${product.sku}.png`} alt={product.title}/>
             <div className="product__inner__box">
               <div className="product__inner__box__top">
                 <div className="product__inner__box__top__txt">

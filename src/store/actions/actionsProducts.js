@@ -3,7 +3,12 @@ import {FILTER_PRODUCTS} from './types';
 
 export const fetchProducts = (dispatch) => {
     return (
-        fetch("./db.json")
+        fetch(`./db.json`, {
+            headers : { 
+                'Content-Type': 'json',
+                'Accept': 'json'
+                }
+            })
             .then(res => res.json())
             .then(data => {
                 return dispatch({type: FETCH_PRODUCTS, payload: data.products})

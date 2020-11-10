@@ -22,7 +22,7 @@ function Basket(carts, products, dispatch) {
           {carts.map((item, i) => {
             return ( 
             <div className="cart__box" key={i}>
-              <img key={i + 25} className={`cart__box__img cart__box_${item.type}`} src={`/products/${item.type}s/${item.type}_${item.sku}.png`} alt={item.title}/>
+              <img key={i + 25} className={`cart__box__img cart__box_${item.type}`} src={`/HoffsonRedux/products/${item.type}s/${item.type}_${item.sku}.png`} alt={item.title}/>
               <div className="cart__box__right" key={i + 50}>
                 <div className="cart__box__right__top" key={item.id}>
                   <div className="cart__box__right__top__txt" key={i + 75}>
