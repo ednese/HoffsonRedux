@@ -28,7 +28,7 @@ function Products(item, carts, dispatch, type) {
       {toggle?
       <div className={"product__add " + toggle}>
         <b>{add}</b> has been added to your shopping cart.
-        <a href="/shoppingcart"> See</a>
+        <a href="/HoffsonRedux/shoppingcart"> See</a>
         <div onClick={() => setToggle('close')}>
             <span/>
         </div>

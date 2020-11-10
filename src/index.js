@@ -5,14 +5,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
 import store from './store'
-import {BrowserRouter} from 'react-router-dom';
+import {HashRouter as Router} from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <Router>
         <App />
-      </BrowserRouter>
+      </Router>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')

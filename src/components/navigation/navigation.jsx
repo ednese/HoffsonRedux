@@ -12,22 +12,22 @@ import bag from '../../assets/icones/shopping-bag-white.svg'
 
 function Nav() {
   const navLinks = [
-      {name: 'Home', link: '/'},
-      {name: 'Vases', link: '/vases'},
-      {name: 'Lamps', link: '/lamps'},
-      {name: 'Clocks', link: '/clocks'}
+      {name: 'Home', link: '/HoffsonRedux/'},
+      {name: 'Vases', link: '/HoffsonRedux/vases'},
+      {name: 'Lamps', link: '/HoffsonRedux/lamps'},
+      {name: 'Clocks', link: '/HoffsonRedux/clocks'}
     ];
   return (
     <div className="nav">
       <div className="nav__inner">
-          <a href='/' ><img className="nav__logo" src={logo} alt='logo'/></a>
+          <a href='/HoffsonRedux/' ><img className="nav__logo" src={logo} alt='logo'/></a>
           <ul className="nav__links">
               {navLinks.map((arg, i) => 
               <li className="nav__links__element" key={i}>
                   <a href={arg.link}>{arg.name}</a>
               </li>)}
           </ul>
-          <a href="/shoppingcart" className="nav__bag">
+          <a href="/HoffsonRedux/shoppingcart" className="nav__bag">
             <img className="nav__bag__icone" src={bag} alt='logo'/>
           </a>
           {Burger(navLinks)}
