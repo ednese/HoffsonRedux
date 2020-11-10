@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/HoffsonRedux/static/css/main.f6b992f1.chunk.css",
-    "main.js": "/HoffsonRedux/static/js/main.edc13d87.chunk.js",
-    "main.js.map": "/HoffsonRedux/static/js/main.edc13d87.chunk.js.map",
-    "runtime-main.js": "/HoffsonRedux/static/js/runtime-main.14ae12f1.js",
-    "runtime-main.js.map": "/HoffsonRedux/static/js/runtime-main.14ae12f1.js.map",
-    "static/js/2.eba620f0.chunk.js": "/HoffsonRedux/static/js/2.eba620f0.chunk.js",
-    "static/js/2.eba620f0.chunk.js.map": "/HoffsonRedux/static/js/2.eba620f0.chunk.js.map",
-    "index.html": "/HoffsonRedux/index.html",
-    "precache-manifest.753d50acd5a2071953538c2cbde87c9c.js": "/HoffsonRedux/precache-manifest.753d50acd5a2071953538c2cbde87c9c.js",
-    "service-worker.js": "/HoffsonRedux/service-worker.js",
-    "static/css/main.f6b992f1.chunk.css.map": "/HoffsonRedux/static/css/main.f6b992f1.chunk.css.map",
-    "static/js/2.eba620f0.chunk.js.LICENSE.txt": "/HoffsonRedux/static/js/2.eba620f0.chunk.js.LICENSE.txt",
-    "static/media/clock-home.jpg": "/HoffsonRedux/static/media/clock-home.59f1abcb.jpg",
-    "static/media/light-home.jpg": "/HoffsonRedux/static/media/light-home.fb4a471b.jpg",
-    "static/media/header.css": "/HoffsonRedux/static/media/living-room-filter-dark.3d4a8756.png",
-    "static/media/logo.png": "/HoffsonRedux/static/media/logo.9cec6761.png",
-    "static/media/shopping-bag-white.svg": "/HoffsonRedux/static/media/shopping-bag-white.b2694bc3.svg",
-    "static/media/vase-home.jpg": "/HoffsonRedux/static/media/vase-home.d7fffa9b.jpg"
+    "main.css": "./static/css/main.e63bc72d.chunk.css",
+    "main.js": "./static/js/main.cf16b9f4.chunk.js",
+    "main.js.map": "./static/js/main.cf16b9f4.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.3d6da9ba.js",
+    "runtime-main.js.map": "./static/js/runtime-main.3d6da9ba.js.map",
+    "static/js/2.eba620f0.chunk.js": "./static/js/2.eba620f0.chunk.js",
+    "static/js/2.eba620f0.chunk.js.map": "./static/js/2.eba620f0.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.82bfbbbd3c0321d95f1de4a053557503.js": "./precache-manifest.82bfbbbd3c0321d95f1de4a053557503.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.e63bc72d.chunk.css.map": "./static/css/main.e63bc72d.chunk.css.map",
+    "static/js/2.eba620f0.chunk.js.LICENSE.txt": "./static/js/2.eba620f0.chunk.js.LICENSE.txt",
+    "static/media/clock-home.jpg": "./static/media/clock-home.59f1abcb.jpg",
+    "static/media/light-home.jpg": "./static/media/light-home.fb4a471b.jpg",
+    "static/media/header.css": "./static/media/living-room-filter-dark.3d4a8756.png",
+    "static/media/logo.png": "./static/media/logo.9cec6761.png",
+    "static/media/shopping-bag-white.svg": "./static/media/shopping-bag-white.b2694bc3.svg",
+    "static/media/vase-home.jpg": "./static/media/vase-home.d7fffa9b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.14ae12f1.js",
+    "static/js/runtime-main.3d6da9ba.js",
     "static/js/2.eba620f0.chunk.js",
-    "static/css/main.f6b992f1.chunk.css",
-    "static/js/main.edc13d87.chunk.js"
+    "static/css/main.e63bc72d.chunk.css",
+    "static/js/main.cf16b9f4.chunk.js"
   ]
 }
