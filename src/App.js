@@ -9,7 +9,7 @@ import {fetchProducts} from './store/actions/actionsProducts'
 import {setCarts} from './store/actions/actionsCarts'
 
 // ROUTER
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 // COMPONENTS
 import Home from './components/pages/home';
@@ -37,9 +37,11 @@ function App() {
   return (
     <div className="App">
       <Router>
-        {routes.map(({ path, Component }) => (
-          <Route key={path} exact path={path} component={Component}/>
-        ))}
+        <Switch>
+          {routes.map(({ path, Component }) => (
+            <Route key={path} exact path={path} component={Component}/>
+          ))}
+        </Switch>
       </Router>
     </div>
   );
