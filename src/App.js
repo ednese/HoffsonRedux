@@ -9,7 +9,7 @@ import {fetchProducts} from './store/actions/actionsProducts'
 import {setCarts} from './store/actions/actionsCarts'
 
 // ROUTER
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, HashRouter, Switch, Route} from 'react-router-dom';
 
 // COMPONENTS
 import Home from './components/pages/home';
@@ -35,7 +35,7 @@ function App() {
       setCarts(JSON.parse(localStorage.cart), dispatch);
   }, [dispatch])
   return (
-    <div className="App">
+    <HashRouter className="App" basename='/'>
       <Router>
         <Switch>
           {routes.map(({ path, Component }) => (
@@ -43,7 +43,7 @@ function App() {
           ))}
         </Switch>
       </Router>
-    </div>
+    </HashRouter>
   );
 }
 
