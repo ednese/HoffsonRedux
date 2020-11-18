@@ -21,8 +21,8 @@ function Burger(tab) {
         <div className={active? 'burger__icon active' : 'burger__icon'} onClick={toggle}>
             <span/>
         </div>
-        <div className={'burger__anim ' + slide}>
-          <div className="burger__sidebar">
+        <div className="burger__anim">
+          <div className={'burger__sidebar ' + slide}>
               <ul className="burger__sidebar__items">
                   {tab.map((item, index) => <li key={index} ><a href={item.link}>{item.name}</a></li>)}
                   <li><a href="/HoffsonRedux/#/shoppingcart">ShoppingCart</a></li>
