@@ -43,6 +43,7 @@
     display: flex;
     overflow: hidden;
     border-radius: 30px;
+    height: 44px;
 }
 .nav__bag__icone{
     width: 20px;

@@ -70,7 +70,6 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    overflow: hidden;
     height: 100vh;
     top: 0;right: 0;
 }
@@ -86,7 +85,6 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: 80em;
-  overflow: hidden;
 }
 .burger__anim.open {
     width: 0;
@@ -101,12 +99,13 @@
 
 .burger__sidebar__items {
     padding: 0;
-    text-align: center;
+    text-align: right;
     margin-top: 100px;
 }
 .burger__sidebar__items>li {
     position: relative;
     margin: 30px 0;
+    margin-left: 300px;
 }
 .burger__sidebar__items>li>a {
     color: black;
