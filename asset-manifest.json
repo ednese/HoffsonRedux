@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/HoffsonRedux/static/css/main.e3e5bbd2.chunk.css",
+    "main.css": "/HoffsonRedux/static/css/main.8438f71c.chunk.css",
     "main.js": "/HoffsonRedux/static/js/main.e1d9d575.chunk.js",
     "main.js.map": "/HoffsonRedux/static/js/main.e1d9d575.chunk.js.map",
     "runtime-main.js": "/HoffsonRedux/static/js/runtime-main.14ae12f1.js",
@@ -8,9 +8,9 @@
     "static/js/2.4306173a.chunk.js": "/HoffsonRedux/static/js/2.4306173a.chunk.js",
     "static/js/2.4306173a.chunk.js.map": "/HoffsonRedux/static/js/2.4306173a.chunk.js.map",
     "index.html": "/HoffsonRedux/index.html",
-    "precache-manifest.f8a44f8ea75163d965594e044a980f1f.js": "/HoffsonRedux/precache-manifest.f8a44f8ea75163d965594e044a980f1f.js",
+    "precache-manifest.cf0ff3dec40a4de33b456d6a657c575a.js": "/HoffsonRedux/precache-manifest.cf0ff3dec40a4de33b456d6a657c575a.js",
     "service-worker.js": "/HoffsonRedux/service-worker.js",
-    "static/css/main.e3e5bbd2.chunk.css.map": "/HoffsonRedux/static/css/main.e3e5bbd2.chunk.css.map",
+    "static/css/main.8438f71c.chunk.css.map": "/HoffsonRedux/static/css/main.8438f71c.chunk.css.map",
     "static/js/2.4306173a.chunk.js.LICENSE.txt": "/HoffsonRedux/static/js/2.4306173a.chunk.js.LICENSE.txt",
     "static/media/clock-home.jpg": "/HoffsonRedux/static/media/clock-home.59f1abcb.jpg",
     "static/media/light-home.jpg": "/HoffsonRedux/static/media/light-home.fb4a471b.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.14ae12f1.js",
     "static/js/2.4306173a.chunk.js",
-    "static/css/main.e3e5bbd2.chunk.css",
+    "static/css/main.8438f71c.chunk.css",
     "static/js/main.e1d9d575.chunk.js"
   ]
 }
