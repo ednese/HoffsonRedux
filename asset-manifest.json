@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/HoffsonRedux/static/css/main.8438f71c.chunk.css",
-    "main.js": "/HoffsonRedux/static/js/main.e1d9d575.chunk.js",
-    "main.js.map": "/HoffsonRedux/static/js/main.e1d9d575.chunk.js.map",
+    "main.css": "/HoffsonRedux/static/css/main.edbd4368.chunk.css",
+    "main.js": "/HoffsonRedux/static/js/main.a5f78ced.chunk.js",
+    "main.js.map": "/HoffsonRedux/static/js/main.a5f78ced.chunk.js.map",
     "runtime-main.js": "/HoffsonRedux/static/js/runtime-main.14ae12f1.js",
     "runtime-main.js.map": "/HoffsonRedux/static/js/runtime-main.14ae12f1.js.map",
     "static/js/2.4306173a.chunk.js": "/HoffsonRedux/static/js/2.4306173a.chunk.js",
     "static/js/2.4306173a.chunk.js.map": "/HoffsonRedux/static/js/2.4306173a.chunk.js.map",
     "index.html": "/HoffsonRedux/index.html",
-    "precache-manifest.cf0ff3dec40a4de33b456d6a657c575a.js": "/HoffsonRedux/precache-manifest.cf0ff3dec40a4de33b456d6a657c575a.js",
+    "precache-manifest.59bb6a53810cf97d807287c23d119742.js": "/HoffsonRedux/precache-manifest.59bb6a53810cf97d807287c23d119742.js",
     "service-worker.js": "/HoffsonRedux/service-worker.js",
-    "static/css/main.8438f71c.chunk.css.map": "/HoffsonRedux/static/css/main.8438f71c.chunk.css.map",
+    "static/css/main.edbd4368.chunk.css.map": "/HoffsonRedux/static/css/main.edbd4368.chunk.css.map",
     "static/js/2.4306173a.chunk.js.LICENSE.txt": "/HoffsonRedux/static/js/2.4306173a.chunk.js.LICENSE.txt",
     "static/media/clock-home.jpg": "/HoffsonRedux/static/media/clock-home.59f1abcb.jpg",
     "static/media/light-home.jpg": "/HoffsonRedux/static/media/light-home.fb4a471b.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.14ae12f1.js",
     "static/js/2.4306173a.chunk.js",
-    "static/css/main.8438f71c.chunk.css",
-    "static/js/main.e1d9d575.chunk.js"
+    "static/css/main.edbd4368.chunk.css",
+    "static/js/main.a5f78ced.chunk.js"
   ]
 }
